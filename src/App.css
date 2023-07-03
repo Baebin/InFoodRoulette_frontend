@@ -1,27 +1,28 @@
+
+
 .App {
   text-align: center;
 }
 
 .App-header{
-  border-color:black;
-  border-width: 3px;
-  border:solid;
+  margin:30px
 }
 
 .menu-icon{
   border-color:black;
   border:solid;
   border-radius: 10px;
+  background-color: #CBAA81;
 }
 .name{
   font-weight: bold;
   font-size:30px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .menu{
   border-color:black;
   border:solid;
   border-width: 3px;
+  background-color: #CBAA81;
 }
 .roulette{
   border:solid;
@@ -42,13 +43,11 @@
 .roulette li .text{
   position:absolute;
   left: -200%;
-  top: 60%;
-  width:300%;
-  height:200%;
+  height:250%;
   text-align:center;
   display:block;
-  transform: skewY(-30deg) rotate(60deg);
-  font-size:40px;
+  
+  
   font-weight:bold;
 }
 .triangle-down{
